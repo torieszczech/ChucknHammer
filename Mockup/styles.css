@@ -1,0 +1,53 @@
+.hammer img{
+    width: 100px;
+}
+.bold{
+    font-family: "Anton", serif;
+    font-size: 3rem;
+    color: black;
+    background-color: white;
+    border: .1rem solid black;
+    text-decoration: none;    
+}
+#bold:active{
+    color: black;
+}
+header{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    background-color:#51824D; 
+}
+nav{
+    width: 100%;
+    text-align: center;
+}
+nav a{    
+    color: #E4E381;
+}
+#home{
+    background-image: url(images/homehouse.jpg);
+    background-size:cover;
+}
+
+
+
+
+
+
+
+
+
+article{
+    display: inline-block;
+}
+article>img{
+    float: left;
+    margin: 1rem;
+}
+
+
+
+
+/*roboto font :   font-family: "Roboto Condensed", serif;
+anton font:   font-family: "Anton", serif; */
