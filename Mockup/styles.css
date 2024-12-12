@@ -7,9 +7,11 @@
     color: black;
     background-color: white;
     border: .1rem solid black;
-    text-decoration: none;    
+    text-decoration: none;
+    margin: 2rem;
+    
 }
-#bold:active{
+.bold:active{
     color: black;
 }
 header{
@@ -17,18 +19,118 @@ header{
     justify-content:center;
     flex-wrap: wrap;
     background-color:#51824D; 
+    padding: 2rem;
+    border-bottom: 5px solid #896B44;
 }
 nav{
     width: 100%;
     text-align: center;
+    font-size: 1rem;
+    font-family: "Anton", serif;
+
 }
 nav a{    
-    color: #E4E381;
+    color: #E4E381; 
+    display: inline-block;
+    padding: .5rem;
+
 }
+
+p{
+    font-family: "Roboto Condensed", serif;
+}
+
+
+#chhome{
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
 #home{
     background-image: url(images/homehouse.jpg);
     background-size:cover;
+    padding: 10rem 1rem 2rem;
+    background-position: bottom;
+    text-align: center;
+    margin: 2rem;
 }
+#homemain{
+    margin: 0 0 10rem 0;
+}
+
+
+#servicemain{
+    padding: 1rem;
+}
+
+
+
+
+
+
+#pastmain img{
+    max-width: 40%;
+    display: inline-flex;
+    padding: 1rem;
+}
+ul{ 
+    font-family: "Roboto Condensed", serif;
+}
+
+
+
+
+
+
+h2{
+    text-align: center;
+    background-color: #808080;
+    padding: 1rem 0 3rem 0;
+    font-family: "Roboto Condensed", serif;
+}
+section span{
+    position: absolute;
+    top: 2rem;
+    font-size: 2rem;
+    left: calc(50% - 11px);
+    transform: rotate(180deg);
+}
+section>h2{
+    position: relative;
+}
+.accordion{
+    cursor: pointer;
+}
+.roof div, .land div, .side div, .window div, .food div, .paint div{
+    display: none;
+}
+.roof div.show{
+    display: block;
+}
+.land div.show{
+    display: block;
+}
+.side div.show{
+    display: block;
+}
+.window div.show{
+    display: block;
+}
+.food div.show{
+    display: block;
+}
+.paint div.show{
+    display: block;
+}
+span.rotate{
+    transform: rotate(0);
+}
+
+
 
 
 
@@ -45,9 +147,21 @@ article>img{
     float: left;
     margin: 1rem;
 }
+#aboutfoot{
+    display: block;
+    margin: auto;
+}
 
 
+#contactmain{
+    text-align: center;
+    margin: 3rem 0 10rem 0;
+    font-size: 1.5rem; 
 
+}
+#contactinfo a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
 
-/*roboto font :   font-family: "Roboto Condensed", serif;
-anton font:   font-family: "Anton", serif; */
