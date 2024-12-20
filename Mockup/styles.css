@@ -44,6 +44,7 @@ p{
 #chhome{
     display: block;
     margin: auto;
+    width: 50%;
 }
 
 
@@ -61,7 +62,12 @@ p{
 #homemain{
     margin: 0 0 10rem 0;
 }
-
+.about-img{
+    display: block;
+    margin: auto;
+    width: 40%;
+    padding: 5rem;
+}
 
 #servicemain{
     padding: 1rem;
@@ -162,7 +168,9 @@ article>img{
     text-align: center;
     margin: 3rem 0 10rem 0;
     font-size: 1.5rem; 
-
+}
+#contact-img{
+    width: 50%;
 }
 #contactinfo a{
     text-align: center;
@@ -172,10 +180,14 @@ article>img{
 .bottom-img{
     display: block;
     margin: auto;
+    width: 20%;
 }
 #charlie{
     width:40%;
 }
+
+
+
 
 @media (min-width: 650px){
     .about{
@@ -190,5 +202,11 @@ article>img{
 @media (min-width: 750px){
     .about{
         margin: 0 8rem 0 8rem;
+    }
+    #contact-img{
+        width: 30%;
+    }
+    #contactmain{
+        font-size: 1.2rem; 
     }
 }
